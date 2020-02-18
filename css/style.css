@@ -1,25 +1,107 @@
 
+img {
+    background-image: image(img/bg-map.jpg";
+    width:100%;
+}
+    
 
-/* CSS Variables */
-:root{
-    --primary: #ddd;
-    --dark: #333;
-    --light:#fff;
-    --shadow: 0 1px 5px rgba( 104,104,104, 0.8);
+
+
+.logo{
+    max-width: 2%;
 }
 
-html {
-    box-sizing:border-box;
+ul.nav{
+    list-style: none;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;  
+
+}
+
+ul.nav a {
+    text-decoration: none;
+}
+
+.container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-areas: header header header header header
+    main main main main main 
+    footer footer footer;
+}
+.centered {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50%);
+}
+
+
+
+/*
+
+ h1 { 
+
+    text-align: center;
+   
+}
+
+header {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: #fff;
     font-family: Arial, Helvetica, sans-serif;
-    color:var (--dark);
+    font-size: 1.25em;
+    font-weight: bold;
+    text-align: center;
+    /*
+    border-radius: 10px;
+    box-shadow: 12px 12px 12px #404040;
 }
 
-body{
-    background-color: #ccc;
-    margin: 30px 50px;
-    line-height: 1.4;
-
-  
+/*
 
 
+.main{
+    display: block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 20px;
+    background-color: #fff;
+    /*
+    border-radius: 10px;
+    box-shadow: 12px 12px 12px #404040;*/
+
+ /*}*/
+/*
+
+
+
+.bg-image {
+    width:100%;
+}
+.header {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+/*
+
+.footer {
+    font-size: .70em;
+    text-align: centerxs;
+    margin-top: 20px;
+    
+}
+
+.box {
+    display: grid;
+
+} */   
 
