@@ -1,6 +1,9 @@
 
 img {
-    background-image: image(img/bg-map.jpg";
+    background-image: url(../img/bg-map.jpg);
+    background-size:cover;
+    background-position: center center;
+    min-height: 20em;
     width:100%;
 }
     
