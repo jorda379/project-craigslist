@@ -77,6 +77,14 @@ img {
     width:100%;
 }
 
+.icons-menu {
+    color:mediumturquoise;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    margin-top: 1%;
+
+}
+
 .container {
     width: 80%;
     margin-left: auto;
