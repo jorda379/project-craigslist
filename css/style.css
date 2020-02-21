@@ -53,17 +53,10 @@ ul.nav a {
 }
 
 
-.card1{
+.card{
     width: 50%;
 }
 
-.card2{
-    width: 50%;
-}
-
-.card3{
-    width:50%
-}
 
 .btn {
     background-color:turquoise;
@@ -109,9 +102,12 @@ img {
 .icons-menu {
     color:mediumturquoise;
     display: grid;
-    grid-template-columns: auto auto auto auto auto auto;
-    margin-top: 1%;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    /* margin-top: 3em; */
+}
 
+.btn{
+    margin: 1em;
 }
 
 .container {
@@ -140,13 +136,24 @@ img {
 }
 
 
-.footer .box{
+.footer .box-footer{
     padding: 10%;
 }
 .sub-footer{
     width: 100%;
     text-align: center;
     
+}
+
+
+
+
+.box{
+    background-color: wheat;
+    /* border: solid black 0.1em; */
+    box-shadow: 0.1em 0.1em 0.1em 0.1em black;
+    padding: .5em;
+    margin: 1em;
 }
 
 .card1{
@@ -156,11 +163,6 @@ img {
 }
 
 
-@media only screen and (min-width: 40em) {
-    #container{ 
-        width: 100%;
-    background-color: lightblue;
-    }
 
     .trending{
     grid-template-columns: auto auto auto;
@@ -174,8 +176,24 @@ img {
 }
 
 
+@media only screen and (max-width: 40em) {
+    #container{ 
+        width: 100%;
+    background-color: lightblue;
+    }
 
-@media only screen and (min-width: 80em) {
+
+
+    .icons-menu {
+        color:mediumturquoise;
+        display: grid;
+        grid-template-columns: 1fr ;
+        /* margin-top: 3em; */
+    }
+    
+
+}
+@media only screen and (max-width: 80em) {
     .icons-menu {
         color:mediumturquoise;
         display: flex;
@@ -183,6 +201,13 @@ img {
         margin-top: 1%;
     
     }
+    .icons-menu {
+        color:mediumturquoise;
+        display: grid;
+        grid-template-columns: 1fr ;
+        /* margin-top: 3em; */
+    }
+    
 }
 
 
