@@ -3,8 +3,6 @@
     box-sizing: border-box;
 }*/
 
-
-
 .main header {;
     background-repeat: no-repeat;
     background-size:cover;
@@ -56,11 +54,16 @@ ul.nav a {
 
 .card1{
     width: 50%;
+    
 
 }
 
 .card2{
     width: 50%;
+}
+
+.card3{
+    width:50%
 }
 
 .btn {
@@ -103,7 +106,7 @@ img {
 .icons-menu {
     color:mediumturquoise;
     display: grid;
-    grid-template-columns: auto auto auto auto auto;
+    grid-template-columns: auto auto auto auto auto auto;
     margin-top: 1%;
 
 }
@@ -120,16 +123,26 @@ img {
     background-color: mediumturquoise;
     display: grid;
     grid-template-columns: auto auto auto;
-    margin: 10%;
-    list-style: none;
+    l
 
 }
 
-ul.footer {
-    list-style: none;
 
+
+
+
+.footer .box ul li {
+    list-style: none;
 }
 
+.footer {
+    margin-top: 10%;
+}
+
+
+.footer .box{
+    padding: 10%;
+}
 .sub-footer{
     width: 100%;
     text-align: center;
@@ -138,6 +151,23 @@ ul.footer {
 
 
 @media only screen and (max-width: 600px) {
-    .container { width 100%
+    #container{ 
+        width: 100%;
     background-color: lightblue;
     }
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .icons-menu {
+        color:mediumturquoise;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 1%;
+    
+    }
+}
+
+
+
