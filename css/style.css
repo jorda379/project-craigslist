@@ -52,10 +52,9 @@ ul.nav a {
     transform: translate(-50%, -50%);
 }
 
+
 .card1{
     width: 50%;
-    
-
 }
 
 .card2{
@@ -78,13 +77,17 @@ ul.nav a {
 
 .trending {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    padding: 16px;
+    /*padding: 16px;*/
     text-align: center;
-    background-color: #f1f1f1;
+    /*background-color: #f1f1f1;*/
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto;
     margin-top: 20%; 
+    margin:0 auto;
 }
+
+
+
 
 .information {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -92,7 +95,7 @@ ul.nav a {
     text-align: center;
     background-color: #f1f1f1;
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto;
     margin-top: 20%;
     /*
     border-radius: 3%; */
@@ -128,9 +131,6 @@ img {
 }
 
 
-
-
-
 .footer .box ul li {
     list-style: none;
 }
@@ -149,17 +149,33 @@ img {
     
 }
 
+.card1{
+    /* border: solid black 0.1em; */
+    box-shadow: .1em .1em .1em .1em black;
+    padding: .5em;
+}
 
-@media only screen and (max-width: 600px) {
+
+@media only screen and (min-width: 40em) {
     #container{ 
         width: 100%;
     background-color: lightblue;
+    }
+
+    .trending{
+    grid-template-columns: auto auto auto;
+
+    }
+
+    .information{
+    grid-template-columns: auto auto auto;
+
     }
 }
 
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 80em) {
     .icons-menu {
         color:mediumturquoise;
         display: flex;
