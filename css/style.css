@@ -1,6 +1,7 @@
 
 
 .main header {;
+    background-image: url("../img/bg");
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center center;
@@ -17,6 +18,30 @@
     max-width: 2%;
     margin-right: 40%;
 
+}
+.box-footer{
+
+    padding: 1em;
+
+}
+
+.box-footer a{
+    color: black ;
+    size: 2em;
+    text-decoration: none;
+}
+
+.box-footer a:hover {
+    color: cornflowerblue;
+}
+
+.box-footer img {
+    width:5em;
+    margin-left: 1em;
+}
+
+.box-footer li{
+    display: inline;
 }
 
 .nav {
@@ -172,6 +197,22 @@ img {
 
 }
 
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 30%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
 @media only screen and (max-width: 40em) {
     #container{ 
         width: 100%;
@@ -206,7 +247,8 @@ img {
     
 }
 
-/*Comment*/
+
+
 
 @media only screen and (max-width: 80em) {
     .box{
